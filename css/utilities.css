@@ -66,6 +66,22 @@
   color: #fff;
 }
 
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
 .lead {
   font-size: 20px;
 }
@@ -90,6 +106,26 @@
   text-align: center;
 }
 
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
 
 .flex {
   display: flex;
@@ -152,41 +188,41 @@
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .py-2 {
-  margin: 1.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .py-3 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .py-4 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .py-5 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .p-2 {
-  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
 .p-3 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .p-4 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .p-5 {
-  margin: 4rem;
+  padding: 4rem;
 }

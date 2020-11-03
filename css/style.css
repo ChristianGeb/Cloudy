@@ -141,6 +141,10 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
+.showcase h2 {
+  font-weight: ;
+}
+
 .stats {
   padding-top: 100px;
   animation: slideInFromBottom 1s ease-in;
@@ -169,6 +173,10 @@ pre {
 .cli .grid>*:first-child {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
+}
+
+.cli .card {
+  text-align: center;
 }
 
 .cloud .grid {
